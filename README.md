@@ -1,4 +1,4 @@
-# ember-cli-deploy-redis
+# ember-cli-deploy-notify-firebase
 
 > An ember-cli-deploy plugin to update a path in Firebase on activation
 
