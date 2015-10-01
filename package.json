@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-deploy-notify-firebase",
   "version": "0.1.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Notify Firebase of Ember deploys.",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,11 +11,11 @@
     "start": "ember server",
     "test": "node tests/runner.js"
   },
-  "repository": "",
+  "repository": "https://github.com/minutebase/ember-cli-deploy-notify-firebase",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "richard@minutebase.com",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.1.2",
