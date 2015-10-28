@@ -28,17 +28,17 @@ module.exports = {
       requiredConfig: ['app', 'token'],
 
       configure: function(/* context */) {
-        this.log('validating config');
+        this.log('validating config', { verbose: true });
 
         ['revisionKey', 'payload', 'path', 'firebaseClient'].forEach(this.applyDefaultConfigProperty.bind(this));
 
-        this.log('config ok');
+        this.log('config ok', { verbose: true });
       },
 
       didActivate: function(context) {
         return this._authenticate()
           .then(this._updateVersion.bind(this))
-          .then(this.log.bind(this, 'notified Firebase of release'));
+          .then(this.log.bind(this, 'notified Firebase of release', { verbose: true }));
       },
 
       _updateVersion: function(version) {

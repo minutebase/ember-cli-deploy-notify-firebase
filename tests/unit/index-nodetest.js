@@ -13,12 +13,13 @@ var stubProject = {
 
 var mockFirebase;
 
-describe('redis plugin', function() {
+describe('notify firebase plugin', function() {
   var subject, mockUi;
 
   beforeEach(function() {
     subject = require('../../index');
     mockUi = {
+      verbose: true,
       messages: [],
       write: function() { },
       writeLine: function(message) {
