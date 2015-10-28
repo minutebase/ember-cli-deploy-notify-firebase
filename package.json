@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-deploy-notify-firebase",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Notify Firebase of Ember deploys.",
   "directories": {
     "doc": "doc",
