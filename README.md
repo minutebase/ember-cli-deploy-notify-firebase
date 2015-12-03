@@ -2,9 +2,7 @@
 
 > An ember-cli-deploy plugin to update a path in Firebase on activation
 
-<hr/>
-**WARNING: This plugin is only compatible with ember-cli-deploy versions >= 0.5.0**
-<hr/>
+[![](https://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/plugins/ember-cli-deploy-notify-firebase.svg)](http://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/)
 
 This plugin updates a path in Firebase with the latest version information when the deploy is activated.
 
