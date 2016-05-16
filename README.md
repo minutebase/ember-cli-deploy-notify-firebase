@@ -30,7 +30,7 @@ $ ember install ember-cli-deploy-notify-firebase
 - Place the following configuration into `config/deploy.js`
 
 ```javascript
-ENV.firebase {
+ENV['notify-firebase'] = {
   app: '<your-firebase-app>',
   token: '<your-firebase-token>'
 }
